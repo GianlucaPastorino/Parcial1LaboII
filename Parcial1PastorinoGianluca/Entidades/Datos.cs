@@ -12,14 +12,15 @@ namespace Entidades
         {
             List<Usuario> usuarios = new List<Usuario>();
             //ADMINS
-            usuarios.Add(new Usuario("Gianluca", "ElCreador", 40936456, true));
-            usuarios.Add(new Usuario("Lucas", "PepeRufoso", 38980847, true));
-            usuarios.Add(new Usuario("Mauricio", "MiamiPenthouse", 35128776, true));
-            usuarios.Add(new Usuario("Lautaro", "VarelaGang", 41520934, true));
+            usuarios.Add(new Usuario("Gianluca Pastorino", "ElCreador", 40936456, true));
+            usuarios.Add(new Usuario("Lucas Rodriguez", "PepeRufoso", 38980847, true));
+            usuarios.Add(new Usuario("Mauricio Cerizza", "MiamiPenthouse", 35128776, true));
+            usuarios.Add(new Usuario("Lautaro Galarza", "VarelaGang", 41520934, true));
             //EMPLEADOS
-            usuarios.Add(new Usuario("Diego", "BarrileteCosmico10", 14276579, false));
-            usuarios.Add(new Usuario("Roberto", "Musso.CDN", 16582013, false));
-            usuarios.Add(new Usuario("Lionel", "AnkaraMessi", 33016244, false));
+            usuarios.Add(new Usuario("Diego Armando Maradona", "BarrileteCosmico10", 14276579, false));
+            usuarios.Add(new Usuario("Roberto Musso", "Musso.CDN", 16582013, false));
+            usuarios.Add(new Usuario("Lionel Andrés Messi", "AnkaraMessi", 33016244, false));
+            usuarios.Add(new Usuario("Matias Gonzalez", "ApruebenmePorFavor", 43285749, false));
 
             return usuarios;
         }
@@ -57,42 +58,43 @@ namespace Entidades
             List<Producto> inventario = new List<Producto>();
 
             // ENTRADAS
-            inventario.Add(new Comida(Comida.ETipo.Entrada, "Porción de Fritas chica", Producto.ETamaño.Chico, 400, 500));
-            inventario.Add(new Comida(Comida.ETipo.Entrada, "Porción de Fritas mediana", Producto.ETamaño.Mediano, 450, 500));
-            inventario.Add(new Comida(Comida.ETipo.Entrada, "Porción de Fritas grande", Producto.ETamaño.Grande, 500, 500));
+            inventario.Add(new Comida(Comida.ETipo.Entrada, "Porción de Fritas", Producto.ETamaño.Chico, 400, 500));
+            inventario.Add(new Comida(Comida.ETipo.Entrada, "Porción de Fritas", Producto.ETamaño.Mediano, 450, 500));
+            inventario.Add(new Comida(Comida.ETipo.Entrada, "Porción de Fritas", Producto.ETamaño.Grande, 500, 500));
             inventario.Add(new Comida(Comida.ETipo.Entrada, "Papas con cheddar", Producto.ETamaño.Unico, 600, 300));
             inventario.Add(new Comida(Comida.ETipo.Entrada, "Papas con cheddar, bacon y verdeo", Producto.ETamaño.Unico, 700, 300));
             inventario.Add(new Comida(Comida.ETipo.Entrada, "Aros de cebolla", Producto.ETamaño.Unico, 550, 500));
-            inventario.Add(new Comida(Comida.ETipo.Entrada, "Salchipapa", Producto.ETamaño.Unico, 600, 300));
+            inventario.Add(new Comida(Comida.ETipo.Entrada, "Salchipapa", Producto.ETamaño.Unico, 600, 50));
 
             // HAMBURGUESAS
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Sobrecargadora", Producto.ETamaño.Chico, 800, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Sobrecargadora doble", Producto.ETamaño.Mediano, 900, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Sobrecargadora triple", Producto.ETamaño.Grande, 1000, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Polimorfica", Producto.ETamaño.Chico, 750, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Polimorfica doble", Producto.ETamaño.Mediano, 800, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Polimorfica triple", Producto.ETamaño.Grande, 850, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Heredera", Producto.ETamaño.Chico, 900, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Heredera doble", Producto.ETamaño.Mediano, 1000, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Heredera triple", Producto.ETamaño.Grande, 1100, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La especial UTN", Producto.ETamaño.Chico, 1000, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La especial UTN doble", Producto.ETamaño.Mediano, 1100, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La especial UTN triple", Producto.ETamaño.Grande, 1200, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Encapsulada", Producto.ETamaño.Chico, 850, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Encapsulada doble", Producto.ETamaño.Mediano, 900, 200));
-            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Encapsulada triple", Producto.ETamaño.Grande, 950, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Sobrecargadora", Producto.ETamaño.Chico, 700, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Sobrecargadora", Producto.ETamaño.Mediano, 800, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Sobrecargadora", Producto.ETamaño.Grande, 900, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Polimorfica", Producto.ETamaño.Chico, 650, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Polimorfica", Producto.ETamaño.Mediano, 700, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Polimorfica", Producto.ETamaño.Grande, 750, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Heredera", Producto.ETamaño.Chico, 800, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Heredera", Producto.ETamaño.Mediano, 900, 35));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Heredera", Producto.ETamaño.Grande, 1000, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Especial UTN", Producto.ETamaño.Chico, 900, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Especial UTN", Producto.ETamaño.Mediano, 1000, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Especial UTN", Producto.ETamaño.Grande, 1100, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Encapsulada", Producto.ETamaño.Chico, 750, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Encapsulada", Producto.ETamaño.Mediano, 800, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Encapsulada", Producto.ETamaño.Grande, 850, 200));
+            inventario.Add(new Comida(Comida.ETipo.Hamburguesa, "La Vegana", Producto.ETamaño.Unico, 800, 200));
 
             // POSTRE
             inventario.Add(new Comida(Comida.ETipo.Postre, "Helado", Producto.ETamaño.Unico, 500, 400));
             inventario.Add(new Comida(Comida.ETipo.Postre, "Tiramisú", Producto.ETamaño.Unico, 500, 170));
             inventario.Add(new Comida(Comida.ETipo.Postre, "Flan con DDL", Producto.ETamaño.Unico, 450, 300));
-            inventario.Add(new Comida(Comida.ETipo.Postre, "Panqueque con DDL", Producto.ETamaño.Unico, 550, 150));
+            inventario.Add(new Comida(Comida.ETipo.Postre, "Panqueque con DDL", Producto.ETamaño.Unico, 550, 20));
             inventario.Add(new Comida(Comida.ETipo.Postre, "Ensalada de frutas", Producto.ETamaño.Unico, 400, 250));
             inventario.Add(new Comida(Comida.ETipo.Postre, "Porción de torta", Producto.ETamaño.Unico, 650, 100));
 
             // BEBIDAS
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Porter", Producto.ETamaño.Chico, 390, 300));
-            inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Porter", Producto.ETamaño.Mediano, 470, 300));
+            inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Porter", Producto.ETamaño.Mediano, 470, 0));
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Stout", Producto.ETamaño.Chico, 390, 300));
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Stout", Producto.ETamaño.Mediano, 470, 300));
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Honey", Producto.ETamaño.Chico, 390, 300));
@@ -101,8 +103,8 @@ namespace Entidades
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "IPA", Producto.ETamaño.Mediano, 470, 300));
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Pilsen", Producto.ETamaño.Chico, 390, 300));
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Pilsen", Producto.ETamaño.Mediano, 470, 300));
-            inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Scottish", Producto.ETamaño.Chico, 390, 300));
-            inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Scottish", Producto.ETamaño.Mediano, 470, 300));
+            inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Scottish", Producto.ETamaño.Chico, 390, 40));
+            inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Scottish", Producto.ETamaño.Mediano, 470, 25));
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Weizen", Producto.ETamaño.Chico, 390, 300));
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Weizen", Producto.ETamaño.Mediano, 470, 300));
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "APA", Producto.ETamaño.Chico, 390, 300));
@@ -111,31 +113,49 @@ namespace Entidades
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Golden", Producto.ETamaño.Mediano, 470, 300));
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Lager", Producto.ETamaño.Chico, 390, 300));
             inventario.Add(new Bebida(Bebida.ETipo.Cerveza, "Lager", Producto.ETamaño.Mediano, 470, 300));
-            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Coca-Cola", Producto.ETamaño.Unico, 250, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Coca-Cola sin azúcar", Producto.ETamaño.Unico, 250, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Sprite", Producto.ETamaño.Unico, 250, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Sprite sin azúcar", Producto.ETamaño.Unico, 250, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Fanta", Producto.ETamaño.Unico, 250, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Fanta sin azúcar", Producto.ETamaño.Unico, 250, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Otro, "Agua sin gas", Producto.ETamaño.Unico, 220, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Otro, "Agua con gas", Producto.ETamaño.Unico, 220, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Otro, "Agua saborizada manzana", Producto.ETamaño.Unico, 250, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Otro, "Agua saborizada pomelo", Producto.ETamaño.Unico, 250, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Otro, "Fernet con Coca", Producto.ETamaño.Unico, 600, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Otro, "Gin Tonic", Producto.ETamaño.Unico, 600, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Otro, "Cuba Libre", Producto.ETamaño.Unico, 600, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Otro, "Campari", Producto.ETamaño.Unico, 600, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Otro, "Carpano y Pomelo", Producto.ETamaño.Unico, 600, 200));
-            inventario.Add(new Bebida(Bebida.ETipo.Otro, "Campari Tonic", Producto.ETamaño.Unico, 650, 200));
+
+            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Coca-Cola", Producto.ETamaño.Mediano, 250, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Coca-Cola sin azúcar", Producto.ETamaño.Mediano, 250, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Sprite", Producto.ETamaño.Mediano, 250, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Sprite sin azúcar", Producto.ETamaño.Mediano, 250, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Fanta", Producto.ETamaño.Mediano, 250, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Gaseosa, "Fanta sin azúcar", Producto.ETamaño.Mediano, 250, 200));
+
+            inventario.Add(new Bebida(Bebida.ETipo.Agua, "Agua sin gas", Producto.ETamaño.Mediano, 220, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Agua, "Agua con gas", Producto.ETamaño.Mediano, 220, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Agua, "Agua saborizada manzana", Producto.ETamaño.Mediano, 250, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Agua, "Agua saborizada pomelo", Producto.ETamaño.Mediano, 250, 200));
+
+            inventario.Add(new Bebida(Bebida.ETipo.Trago, "Fernet con Coca", Producto.ETamaño.Unico, 600, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Trago, "Gin Tonic", Producto.ETamaño.Unico, 600, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Trago, "Cuba Libre", Producto.ETamaño.Unico, 600, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Trago, "Campari", Producto.ETamaño.Unico, 600, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Trago, "Carpano y Pomelo", Producto.ETamaño.Unico, 600, 200));
+            inventario.Add(new Bebida(Bebida.ETipo.Trago, "Campari Tonic", Producto.ETamaño.Unico, 650, 200));
 
             return inventario;
         }
 
-        // Hacer
-        /*public static List<Pedido> HardcodearVentas(List<Pedido> ventas)
+   
+        public static List<Pedido> HardcodearVentas()
         {
-            ventas.Add()
+            List<Pedido> ventas = new List<Pedido>();
+            Dictionary<Producto, int> productos1 = new Dictionary<Producto, int>();
+            Dictionary<Producto, int> productos2 = new Dictionary<Producto, int>();
+            Dictionary<Producto, int> productos3 = new Dictionary<Producto, int>();
+            
+            productos1.Add(Bar.Productos[7], 2);
+            ventas.Add(new Pedido(Bar.Usuarios[1], productos1, new DateTime(2022, 05, 20, 12, 35, 48), true, Pedido.EMedioDePago.Crédito));
+            
+            
+            productos2.Add(Bar.Productos[15], 1);
+            productos2.Add(Bar.Productos[30], 1);
+            ventas.Add(new Pedido(Bar.Usuarios[2], productos2, new DateTime(2022, 05, 21, 21, 15, 20), false, Pedido.EMedioDePago.Débito));
+
+            productos3.Add(Bar.Productos[45], 3);
+            ventas.Add(new Pedido(Bar.Usuarios[6], productos3, new DateTime(2022, 05, 23, 13, 20, 54), true, Pedido.EMedioDePago.QR));
+
             return ventas;
-        }*/
+        }
     }
 }

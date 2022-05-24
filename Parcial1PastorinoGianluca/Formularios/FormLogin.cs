@@ -11,16 +11,15 @@ using Entidades;
 
 namespace Formularios
 {
-    public partial class Login : Form
+    public partial class FormLogin : Form
     {
-        public Login()
+        public FormLogin()
         {
             InitializeComponent();
         }
 
         private void Login_Load(object sender, EventArgs e)
-        {           
-            
+        {
         }
 
         private void btnLoguear_Click(object sender, EventArgs e)
@@ -33,6 +32,28 @@ namespace Formularios
                 frmPrincipal.Show();
                 this.Hide();
             }
+        }
+        
+        private void btnAdmin_Click(object sender, EventArgs e)
+        {
+            txbUsuario.Text = "40936456";
+            txbContraseña.Text = "ElCreador";
+        }
+
+        private void btnEmpleado_Click(object sender, EventArgs e)
+        {
+            txbUsuario.Text = "33016244";
+            txbContraseña.Text = "AnkaraMessi";
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

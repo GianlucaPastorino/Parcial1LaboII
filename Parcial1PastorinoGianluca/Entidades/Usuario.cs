@@ -27,6 +27,11 @@ namespace Entidades
             get => dni;
         }
 
+        public bool EsAdmin
+        {
+            get => esAdmin;
+        }
+
         /// <summary>
         /// Chequea que la contraseña recibida sea igual a la contraseña del usuario
         /// </summary>
@@ -37,19 +42,19 @@ namespace Entidades
             return contraseña == this.contraseña;
         } 
 
-        public static bool operator ==(Usuario u1, Usuario u2)
+        public static bool operator ==(int dni, Usuario u)
         {
-            if (u1 is not null && u2 is not null)
+            if (u is not null)
             {
-                return u1.dni == u2.dni;
+                return dni == u.dni;
             }
 
             return false;
         }
 
-        public static bool operator !=(Usuario u1, Usuario u2)
+        public static bool operator !=(int dni, Usuario u)
         {
-            return !(u1 == u2);
+            return !(dni == u);
         }
     }
 }

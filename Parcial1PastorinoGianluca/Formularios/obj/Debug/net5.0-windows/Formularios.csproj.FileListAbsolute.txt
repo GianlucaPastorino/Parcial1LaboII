@@ -8,7 +8,6 @@ D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1Pasto
 D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\bin\Debug\net5.0-windows\Entidades.dll
 D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\bin\Debug\net5.0-windows\Entidades.pdb
 D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.csproj.AssemblyReference.cache
-D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.Login.resources
 D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.csproj.GenerateResource.cache
 D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.AssemblyInfoInputs.cache
@@ -20,3 +19,11 @@ D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1Pasto
 D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.pdb
 D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.genruntimeconfig.cache
 D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.FormPrincipal.resources
+D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.FormCobrar.resources
+D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.FormInventario.resources
+D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.FormLogin.resources
+D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.FormEmpleados.resources
+D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.FormAgregarStock.resources
+D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.FormVentas.resources
+D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.FormAgregarProducto.resources
+D:\Programación\.UTN\Tercer cuatrimestre\Prog y Labo II\Proyectos\Parcial1PastorinoGianluca\Formularios\obj\Debug\net5.0-windows\Formularios.Properties.Resources.resources

@@ -15,12 +15,44 @@ namespace Entidades
 
         ETipo tipo;
         bool estaLibre;
-        Pedido pedido;
+        Pedido pedidoActual;
+
+        public bool EstaLibre
+        {
+            get => estaLibre;
+            set => estaLibre = value;
+        }
+
+        public ETipo Tipo
+        {
+            get => tipo;
+        }
+
+        public Pedido PedidoActual
+        {
+            get => pedidoActual;
+        }
+
 
         public Sector(ETipo tipo)
         {
             this.tipo = tipo;
             estaLibre = true;
+        }
+
+        public void CambiarEstado(Usuario vendedor)
+        {
+            if(estaLibre)
+            {
+                pedidoActual = new Pedido(vendedor);
+            }
+            else
+            {
+                pedidoActual = null;
+            }
+
+            estaLibre = !estaLibre;
+
         }
     }
 }
