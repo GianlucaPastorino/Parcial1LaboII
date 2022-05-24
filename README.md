@@ -31,5 +31,10 @@
 - Menú Empleados:
 1) El administrador tendrá acceso a este menú, y podrá ver la información de los empleados registrados en el sistema.
 
+**Puntos Extra incluídos**
+
+- Se han añadido 2 buscadores.
+- El fondo de la aplicación cambia según se loguea un empleado o administrador.
+- Se incluyó el menú especial para ver las facturaciones ("Ventas") pero no se añadió la funcionalidad de exportar archivo txt.
 
 
