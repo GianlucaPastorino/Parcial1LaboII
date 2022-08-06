@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj": {}
+    "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Repo Parcial\\Parcial1LaboII\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj": {
+    "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Repo Parcial\\Parcial1LaboII\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Repo Parcial\\Parcial1LaboII\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj",
+        "projectPath": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Repo Parcial\\Parcial1LaboII\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\Gianluca\\.nuget\\packages\\",
-        "outputPath": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Parcial1PastorinoGianluca\\Entidades\\obj\\",
+        "outputPath": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Repo Parcial\\Parcial1LaboII\\Parcial1PastorinoGianluca\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gianluca\\AppData\\Roaming\\NuGet\\NuGet.Config",

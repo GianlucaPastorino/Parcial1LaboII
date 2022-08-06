@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Parcial1PastorinoGianluca\\Formularios\\Formularios.csproj",
+      "projectUniqueName": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Repo Parcial\\Parcial1LaboII\\Parcial1PastorinoGianluca\\Formularios\\Formularios.csproj",
       "projectName": "Formularios",
-      "projectPath": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Parcial1PastorinoGianluca\\Formularios\\Formularios.csproj",
+      "projectPath": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Repo Parcial\\Parcial1LaboII\\Parcial1PastorinoGianluca\\Formularios\\Formularios.csproj",
       "packagesPath": "C:\\Users\\Gianluca\\.nuget\\packages\\",
-      "outputPath": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Parcial1PastorinoGianluca\\Formularios\\obj\\",
+      "outputPath": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Repo Parcial\\Parcial1LaboII\\Parcial1PastorinoGianluca\\Formularios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gianluca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj": {
-              "projectPath": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj"
+            "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Repo Parcial\\Parcial1LaboII\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj": {
+              "projectPath": "D:\\Programación\\.UTN\\Tercer cuatrimestre\\Prog y Labo II\\Proyectos\\Repo Parcial\\Parcial1LaboII\\Parcial1PastorinoGianluca\\Entidades\\Entidades.csproj"
             }
           }
         }
